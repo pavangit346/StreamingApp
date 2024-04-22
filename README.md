@@ -80,7 +80,7 @@ Scalable , Highly Secure and Highly available , Region Specific access of conten
 •	AWS WAF (Web Application Firewall) protects your web applications from common web exploits.
 •	AWS Shield provides DDoS (Distributed Denial of Service) protection.
 12.	Region-based Access Control:
-•	Use AWS Lambda@Edge to implement region-based access control. It allows you to execute code closer to your users, at AWS edge locations, to customize the user experience.
+•	Use Geo Blocking and Geo IP Filtering to intercept user reuests and the IP location and able to provide the allowed content to the users.
 
   #Steps to Implement: 
 1.	Design the Database Schema: Define schemas for users, content, access control lists, etc.
